@@ -1,7 +1,9 @@
 add_library(gridsim
     core/logger.cpp
     core/config.cpp
+    core/clock.cpp
 )
+
 target_include_directories(gridsim PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(gridsim PUBLIC spdlog::spdlog_header_only nlohmann_json::nlohmann_json)
 
