@@ -5,7 +5,7 @@
 #ifndef DUMMY_SIM_H
 #define DUMMY_SIM_H
 #pragma once
-#include "sim/isimulation.h"
+#include "isimulation.h"
 #include <cstddef>
 
 namespace gs {

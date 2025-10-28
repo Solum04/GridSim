@@ -1,7 +1,7 @@
 #include "core/logger.h"
 #include "core/config.h"
 #include "core/application.h"
-#include "sim/isimulation.h"
+#include "sims/isimulation.h"
 #include "sims/dummy_sim.h"
 
 int main() {

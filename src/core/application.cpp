@@ -4,7 +4,7 @@
 #include "application.h"
 #include "clock.h"
 #include "logger.h"
-#include "../sim/isimulation.h"
+#include "../sims/isimulation.h"
 
 namespace gs {
 
