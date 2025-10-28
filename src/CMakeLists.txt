@@ -7,6 +7,7 @@ add_library(gridsim
         ecs/entity.h
         ecs/registry.h
         ecs/registry.cpp
+        ecs/component_pool.h
 )
 
 target_include_directories(gridsim PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

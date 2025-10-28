@@ -15,6 +15,7 @@ add_executable(gridsim_tests
         test_clock.cpp
         test_app_loop.cpp
         test_registry.cpp
+        test_component_pool.cpp
 )
 target_link_libraries(gridsim_tests PRIVATE gridsim Catch2::Catch2WithMain)
 add_dependencies(gridsim_tests copy_test_assets)
