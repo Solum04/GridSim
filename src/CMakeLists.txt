@@ -4,6 +4,9 @@ add_library(gridsim
     core/clock.cpp
     core/application.cpp
     sims/dummy_sim.cpp
+        ecs/entity.h
+        ecs/registry.h
+        ecs/registry.cpp
 )
 
 target_include_directories(gridsim PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
