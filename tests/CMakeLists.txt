@@ -12,6 +12,8 @@ add_custom_target(copy_test_assets ALL
 add_executable(gridsim_tests
         test_sanity.cpp
         test_config.cpp
+        test_clock.cpp
+        test_app_loop.cpp
 )
 target_link_libraries(gridsim_tests PRIVATE gridsim Catch2::Catch2WithMain)
 add_dependencies(gridsim_tests copy_test_assets)

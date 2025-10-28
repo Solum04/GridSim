@@ -2,9 +2,8 @@ add_library(gridsim
     core/logger.cpp
     core/config.cpp
     core/clock.cpp
-        sim/isimulation.h
-        core/application.h
-        core/application.cpp
+    core/application.cpp
+    sims/dummy_sim.cpp
 )
 
 target_include_directories(gridsim PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
